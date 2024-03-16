@@ -6,4 +6,9 @@ public class Utilities
     {
         return numbers.Sum() / numbers.Length;
     }
+
+    public static int MaxElement(int[] numbers)
+    {
+        return numbers.Max();
+    }
 }

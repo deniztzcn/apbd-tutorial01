@@ -9,5 +9,6 @@ Console.WriteLine("modification 3");
 
 var numbers = Enumerable.Range(0,10).ToArray();
 
-Console.WriteLine($"This is my average: {Utilities.AverageElement(numbers)}");
+Console.WriteLine($"This is my average: {Utilities.AverageNumber(numbers)}");
+
 Console.WriteLine($"The max element: {Utilities.MaxElement(numbers)}");

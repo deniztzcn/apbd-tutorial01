@@ -2,7 +2,9 @@
 
 public class Utilities
 {
-    public static double AverageElement(int[] numbers)
+
+    public static double AverageNumber(int[] numbers)
+
     {
         return numbers.Sum() / numbers.Length;
     }
